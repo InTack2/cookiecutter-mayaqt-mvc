@@ -14,7 +14,7 @@ from . import model
 class Controller(object):
     def __init__(self):
         self.__view = view.View()
-        self.__model = model.{{cookiecutter.tool_slug}}()
+        self.__model = model.{{cookiecutter.tool_name}}()
         self.setup_event()
 
     def setup_event(self):
