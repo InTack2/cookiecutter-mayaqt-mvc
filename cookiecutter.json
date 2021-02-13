@@ -2,7 +2,7 @@
     "full_name": "Your name",
     "email": "Your address email (eg. you@example.com)",
     "tool_name": "Name of the project",
-    "tool_slug": "cookiecutter-{{ cookiecutter.tool_name.lower().replace('cookiecutter', '').strip().replace(' ', '-') }}",
+    "tool_slug": "{{ cookiecutter.tool_name|lower|replace(' ', '-') }}",
     "release_date": "{% now 'local' %}",
     "version": "0.1.0",
     "_extensions": [
@@ -10,6 +10,6 @@
     ],
     "_copy_without_render": [
         "cookiecutter.json",
-        "{{cookiecutter.project_slug}}"
+        "{{cookiecutter.tool_slug}}"
     ]
 }
