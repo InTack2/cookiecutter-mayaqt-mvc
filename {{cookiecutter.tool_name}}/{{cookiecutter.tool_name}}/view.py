@@ -17,5 +17,5 @@ class View(MayaQWidgetBaseMixin, QMainWindow):
     def __init__(self, *args, **kwargs):
         super(View, self).__init__(*args, **kwargs)
 
-        self.gui = sample_gui.Ui_SampleWindowUI()
+        self.gui = sample_gui.Ui_{{cookiecutter.tool_name}}UI()
         self.gui.setupUi(self)
