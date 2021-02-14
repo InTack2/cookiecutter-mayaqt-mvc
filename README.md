@@ -1,16 +1,16 @@
-maya-mvc-for-qt
-===============
+# cookiecutter-mayaqt-mvc
+This is an MVC pattern for MayaQt that I made as a trial.
 
-A short description of the project
+It is also good to fork and modify this cookie cutter template.
+Or, we will respond if you request.
 
-Requirements
-------------
+## Requirements
 Install `cookiecutter` command line: `pip install cookiecutter`    
 
-Usage
------
-Generate a new Cookiecutter template layout: `cookiecutter gh:InTack2/cookiecutter-maya-mvc-for-qt`    
+## Usage
+Generate a new Cookiecutter template layout: `python -m cookiecutter git+https://github.com/InTack2/cookiecutter-mayaqt-mvc.git`  
 
-License
--------
+
+
+## License
 This project is licensed under the terms of the [MIT License](/LICENSE)
